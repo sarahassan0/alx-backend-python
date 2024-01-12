@@ -9,4 +9,4 @@ mixed_tuple = Tuple[str, float]
 
 def to_kv(k: str, v: union_var) -> mixed_tuple:
     """ returns a tuple """
-    return (k, v**)
+    return (k, v**2)
