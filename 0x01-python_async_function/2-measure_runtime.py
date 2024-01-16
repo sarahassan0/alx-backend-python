@@ -9,7 +9,7 @@ wait_n = __import__("1-concurrent_coroutines").wait_n
 def measure_time(n: int, max_delay: int) -> float:
     """
     measure total time that wait_n function takes
-    
+
     @n: times to call wait_random
     @max_delay: max delay of wait_random
     Return: total_time / n
